@@ -1,0 +1,14 @@
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.deps.json
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.json
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.dev.json
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.dll
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.pdb
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.csprojAssemblyReference.cache
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cache
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cs
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfoInputs.cache
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfo.cs
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.dll
+C:\Users\Gabriel Santana\Desktop\Gerenciador-Saloes\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.pdb
