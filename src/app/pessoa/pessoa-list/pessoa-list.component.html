@@ -1,0 +1,43 @@
+<nav class="mb-5">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a routerLink="/">CRUD</a>
+    </li>
+    <li class="breadcrumb-item active">Pessoas</li>
+  </ol>
+</nav>
+
+<!-- BOTAO -->
+<div class="row mb-4">
+  <div class="col-md">
+    <h1 class="h2 border-left pl-2">
+      Pessoas
+    </h1>
+  </div>
+  <div class="col-md">
+    <a routerLink="new" class="btn btn-success float-right">+ Cadastrar Pessoa</a>
+  </div>
+</div>
+
+<!-- TABELA -->
+<table class="table table-hover">
+  <thead>
+    <tr class="bg-primary text-light">
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Sobrenome</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let p of pessoas">
+      <td>{{ p.id }}</td>
+      <td>{{ p.nome }}</td>
+      <td>{{ p.sobrenome}}</td>
+      <td>
+        <a [routerLink]="[p.id, 'edit']" class="btn btn-outline-info btn-sm mr-2">Editar</a>
+        <button (click)="DeletarPessoa(p)" class="btn btn-outline-danger btn-sm">Deletar</button>
+      </td>
+    </tr> 
+  </tbody>
+</table>
