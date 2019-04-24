@@ -47,5 +47,13 @@
     </div>
   </div>
 
+  <!-- DIV DE ERROS DO SERVIDOR -->
+  <div class="alert alert-danger mt-4" *ngIf="msgErroServidor">
+    <strong>Erro no SERVIDOR: </strong>
+    <ul>
+      <li *ngFor="let error of msgErroServidor">{{ error }}</li>
+    </ul>
+  </div>
+
   <button [disabled]="formEnviado || pessoaForm.invalid" type="submit" class="btn btn-primary btn-lg mt-1 float-right">Cadastrar</button>
 </form>

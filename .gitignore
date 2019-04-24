@@ -1,50 +1,52 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
-/out-tsc
+clientApp/dist
+clientApp/tmp
+clientApp/out-tsc
 # Only exists if Bazel was run
-/bazel-out
+clientApp/bazel-out
 
 # dependencies
-/node_modules
+clientApp/node_modules
 
 # profiling files
-chrome-profiler-events.json
-speed-measure-plugin.json
+clientApp/chrome-profiler-events.json
+clientApp/speed-measure-plugin.json
 
 # IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+clientApp/.idea
+clientApp/.project
+clientApp/.classpath
+clientApp/.c9/
+clientApp/*.launch
+clientApp/.settings/
+clientApp/*.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+clientApp/.vscode/*
+clientApp/!.vscode/settings.json
+clientApp/!.vscode/tasks.json
+clientApp/!.vscode/launch.json
+clientApp/!.vscode/extensions.json
+clientApp/.history/*
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
+clientApp/.sass-cache
+clientApp/connect.lock
+clientApp/coverage
+clientApp/libpeerconnection.log
+clientApp/npm-debug.log
+clientApp/yarn-error.log
+clientApp/testem.log
+clientApp/typings
 
 # System Files
-.DS_Store
-Thumbs.db
+clientApp/.DS_Store
+clientApp/Thumbs.db
 
 
 # ====== WEB API ======
 WebApi/.vs
+WebApi/WebApi/bin
+WebApi/WebApi/obj

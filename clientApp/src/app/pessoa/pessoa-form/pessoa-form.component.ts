@@ -55,7 +55,7 @@ export class PessoaFormComponent implements OnInit, AfterContentChecked {
     } else {
       this.actionAtual = 'edit';
     }
-   //this.actionAtual = this.rotaAtiva.snapshot.url[0].path;
+   // this.actionAtual = this.rotaAtiva.snapshot.url[0].path;
 
     console.log(this.actionAtual);
   }
